@@ -108,6 +108,6 @@ function sendTo(connection, message) {
 }
 
 // Listen on IP 195.82.126.224 and port 9090
-server.listen(9090, () => {
+server.listen(9090, '20.33.39.89',() => {
   console.log("Server is listening on 9090");
 });

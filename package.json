@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "pnpm": "^9.6.0",
+    "ws": "^8.18.0"
+  },
+  "name": "nodejs",
+  "version": "1.0.0",
+  "main": "./src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

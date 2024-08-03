@@ -1,7 +1,7 @@
 let name;
 let connectedUser;
 
-const conn = new WebSocket("wss://0.0.0.0:9090");
+const conn = new WebSocket("wss://localhost:9090");
 
 conn.onopen = function () {
   console.log("Connected to the signaling server");
